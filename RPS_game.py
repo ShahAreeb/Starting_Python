@@ -17,7 +17,7 @@ while True:
         continue
 
     computer=random.choice(choices)
-    player=choices[choice-1]
+    player=choices[choice]
 
     if computer==player:
      print("Tied , try again")
